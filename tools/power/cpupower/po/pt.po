@@ -10,62 +10,62 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-03-08 17:03+0100\n"
 "PO-Revision-Date: 2008-06-14 22:16-0400\n"
-"Last-Translator: Claudio Eduardo <claudioeddy@gmail.com>\n"
+"Last-Translator: Leonardo Santos <email.leonardo@icloud.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: utils/idle_monitor/nhm_idle.c:36
 msgid "Processor Core C3"
-msgstr ""
+msgstr "Processador Core C3"
 
 #: utils/idle_monitor/nhm_idle.c:43
 msgid "Processor Core C6"
-msgstr ""
+msgstr "Processador Core C6"
 
 #: utils/idle_monitor/nhm_idle.c:51
 msgid "Processor Package C3"
-msgstr ""
+msgstr "Pacote do processador C3"
 
 #: utils/idle_monitor/nhm_idle.c:58 utils/idle_monitor/amd_fam14h_idle.c:70
 msgid "Processor Package C6"
-msgstr ""
+msgstr "Pacote do processador C6"
 
 #: utils/idle_monitor/snb_idle.c:33
 msgid "Processor Core C7"
-msgstr ""
+msgstr "Processador Core C7"
 
 #: utils/idle_monitor/snb_idle.c:40
 msgid "Processor Package C2"
-msgstr ""
+msgstr "Pacote do processador C2"
 
 #: utils/idle_monitor/snb_idle.c:47
 msgid "Processor Package C7"
-msgstr ""
+msgstr "Pacote do processador C7"
 
 #: utils/idle_monitor/amd_fam14h_idle.c:56
 msgid "Package in sleep state (PC1 or deeper)"
-msgstr ""
+msgstr "Pacote em estado de suspensão (PC1 ou mais profundo)"
 
 #: utils/idle_monitor/amd_fam14h_idle.c:63
 msgid "Processor Package C1"
-msgstr ""
+msgstr "Pacote do processador C1"
 
 #: utils/idle_monitor/amd_fam14h_idle.c:77
 msgid "North Bridge P1 boolean counter (returns 0 or 1)"
-msgstr ""
+msgstr "Contador booleano North Bridge P1 (retorna 0 ou 1)"
 
 #: utils/idle_monitor/mperf_monitor.c:35
 msgid "Processor Core not idle"
-msgstr ""
+msgstr "Núcleo do processador não ocioso"
 
 #: utils/idle_monitor/mperf_monitor.c:42
 msgid "Processor Core in an idle state"
-msgstr ""
+msgstr "Núcleo do processador em um estado ocioso"
 
 #: utils/idle_monitor/mperf_monitor.c:50
 msgid "Average Frequency (including boost) in MHz"
-msgstr ""
+msgstr "Frequência média (incluindo impulso) em MHz"
 
 #: utils/idle_monitor/cpupower-monitor.c:66
 #, c-format
@@ -73,6 +73,8 @@ msgid ""
 "cpupower monitor: [-h] [ [-t] | [-l] | [-m <mon1>,[<mon2>] ] ] [-i "
 "interval_sec | -c command ...]\n"
 msgstr ""
+"cpupower monitor: [-h] [ [-t] | [-l] | [-m <mon1>,[<mon2>] ] ] [-i "
+"interval_sec | -c comando ...]\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:69
 #, c-format
@@ -80,36 +82,38 @@ msgid ""
 "cpupower monitor: [-v] [-h] [ [-t] | [-l] | [-m <mon1>,[<mon2>] ] ] [-i "
 "interval_sec | -c command ...]\n"
 msgstr ""
+"cpupower monitor: [-v] [-h] [ [-t] | [-l] | [-m <mon1>,[<mon2>] ] ] [-i "
+"interval_sec | -c comando ...]\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:71
 #, c-format
 msgid "\t -v: be more verbose\n"
-msgstr ""
+msgstr "\t -v: seja mais prolixo\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:73
 #, c-format
 msgid "\t -h: print this help\n"
-msgstr ""
+msgstr "\t -h: mostrar esta ajuda\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:74
 #, c-format
 msgid "\t -i: time interval to measure for in seconds (default 1)\n"
-msgstr ""
+msgstr "\t -i: intervalo de tempo para medir em segundos (padrão 1)\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:75
 #, c-format
 msgid "\t -t: show CPU topology/hierarchy\n"
-msgstr ""
+msgstr "\t -t: mostrar topologia/hierarquia da CPU\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:76
 #, c-format
 msgid "\t -l: list available CPU sleep monitors (for use with -m)\n"
-msgstr ""
+msgstr "\t -l: lista os monitores de sono da CPU disponíveis (para uso com -m)\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:77
 #, c-format
 msgid "\t -m: show specific CPU sleep monitors only (in same order)\n"
-msgstr ""
+msgstr "\t -m: mostrar monitores de sono de CPU específicos apenas (na mesma ordem)\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:79
 #, c-format
@@ -117,56 +121,58 @@ msgid ""
 "only one of: -t, -l, -m are allowed\n"
 "If none of them is passed,"
 msgstr ""
+"apenas um de: -t, -l, -m é permitido\n"
+"Se nenhum deles for aprovado,"
 
 #: utils/idle_monitor/cpupower-monitor.c:80
 #, c-format
 msgid " all supported monitors are shown\n"
-msgstr ""
+msgstr " todos os monitores suportados são mostrados\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:197
 #, c-format
 msgid "Monitor %s, Counter %s has no count function. Implementation error\n"
-msgstr ""
+msgstr "Monitor %s, Contador %s não tem função de contagem. Erro de implementação\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:207
 #, c-format
 msgid " *is offline\n"
-msgstr ""
+msgstr " *está offline\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:236
 #, c-format
 msgid "%s: max monitor name length (%d) exceeded\n"
-msgstr ""
+msgstr "%s: comprimento máximo do nome do monitor (%d) excedido\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:250
 #, c-format
 msgid "No matching monitor found in %s, try -l option\n"
-msgstr ""
+msgstr "Nenhum monitor correspondente encontrado em %s, tente a opção -l\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:266
 #, c-format
 msgid "Monitor \"%s\" (%d states) - Might overflow after %u s\n"
-msgstr ""
+msgstr "Monitor \"%s\" (%d estados) - Pode estourar após %u s\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:319
 #, c-format
 msgid "%s took %.5f seconds and exited with status %d\n"
-msgstr ""
+msgstr "%s levou %.5f segundos e saiu com o status %d\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:406
 #, c-format
 msgid "Cannot read number of available processors\n"
-msgstr ""
+msgstr "Não é possível ler o número de processadores disponíveis\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:417
 #, c-format
 msgid "Available monitor %s needs root access\n"
-msgstr ""
+msgstr "O monitor disponível %s precisa de acesso root\n"
 
 #: utils/idle_monitor/cpupower-monitor.c:428
 #, c-format
 msgid "No HW Cstate monitors found\n"
-msgstr ""
+msgstr "Nenhum monitor HW Cstate encontrado\n"
 
 #: utils/cpupower.c:78
 #, c-format
@@ -181,7 +187,7 @@ msgstr ""
 #: utils/cpupower.c:80
 #, c-format
 msgid "Supported subcommands are:\n"
-msgstr ""
+msgstr "Os subcomandos suportados são:\n"
 
 #: utils/cpupower.c:83
 #, c-format
@@ -189,16 +195,18 @@ msgid ""
 "\n"
 "Some subcommands can make use of the -c cpulist option.\n"
 msgstr ""
+"\n"
+"Alguns subcomandos podem usar a opção -c cpulist.\n"
 
 #: utils/cpupower.c:84
 #, c-format
 msgid "Look at the general cpupower manpage how to use it\n"
-msgstr ""
+msgstr "Veja a página geral do cpupower manpage como usá-lo\n"
 
 #: utils/cpupower.c:85
 #, c-format
 msgid "and read up the subcommand's manpage whether it is supported.\n"
-msgstr ""
+msgstr "e leia o subcomando manpage se ele é compatível.\n"
 
 #: utils/cpupower.c:86
 #, c-format
@@ -206,6 +214,8 @@ msgid ""
 "\n"
 "Use cpupower help subcommand for getting help for above subcommands.\n"
 msgstr ""
+"\n"
+"Use o subcomando cpupower help para obter ajuda para os subcomandos acima.\n"
 
 #: utils/cpupower.c:91
 #, c-format
@@ -215,12 +225,12 @@ msgstr "Reporte erros e bugs para %s, por favor.\n"
 #: utils/cpupower.c:114
 #, c-format
 msgid "Error parsing cpu list\n"
-msgstr ""
+msgstr "Erro ao analisar a lista de cpu\n"
 
 #: utils/cpupower.c:172
 #, c-format
 msgid "Subcommand %s needs root privileges\n"
-msgstr ""
+msgstr "O subcomando %s precisa de privilégios de root\n"
 
 #: utils/cpufreq-info.c:31
 #, c-format
@@ -238,7 +248,7 @@ msgstr ""
 #: utils/cpufreq-info.c:151
 #, c-format
 msgid "Error while evaluating Boost Capabilities on CPU %d -- are you root?\n"
-msgstr ""
+msgstr "Erro ao avaliar os recursos de reforço na CPU %d - você é root?\n"
 
 #. P state changes via MSR are identified via cpuid 80000007
 #. on Intel and AMD, but we assume boost capable machines can do that
@@ -248,50 +258,50 @@ msgstr ""
 #: utils/cpufreq-info.c:161
 #, c-format
 msgid "  boost state support: \n"
-msgstr ""
+msgstr "  aumentar o suporte do estado: \n"
 
 #: utils/cpufreq-info.c:163
 #, c-format
 msgid "    Supported: %s\n"
-msgstr ""
+msgstr "    Suportado: %s\n"
 
 #: utils/cpufreq-info.c:163 utils/cpufreq-info.c:164
 msgid "yes"
-msgstr ""
+msgstr "sim"
 
 #: utils/cpufreq-info.c:163 utils/cpufreq-info.c:164
 msgid "no"
-msgstr ""
+msgstr "não"
 
 #: utils/cpufreq-info.c:164
 #, fuzzy, c-format
 msgid "    Active: %s\n"
-msgstr "  driver: %s\n"
+msgstr "  Ativo: %s\n"
 
 #: utils/cpufreq-info.c:177
 #, c-format
 msgid "    Boost States: %d\n"
-msgstr ""
+msgstr "    Estados de impulso: %d\n"
 
 #: utils/cpufreq-info.c:178
 #, c-format
 msgid "    Total States: %d\n"
-msgstr ""
+msgstr "    Estados totais: %d\n"
 
 #: utils/cpufreq-info.c:181
 #, c-format
 msgid "    Pstate-Pb%d: %luMHz (boost state)\n"
-msgstr ""
+msgstr "    Pstate-Pb%d: %luMHz (estado de impulso)\n"
 
 #: utils/cpufreq-info.c:184
 #, c-format
 msgid "    Pstate-P%d:  %luMHz\n"
-msgstr ""
+msgstr "    Pstate-P%d:  %luMHz\n"
 
 #: utils/cpufreq-info.c:211
 #, c-format
 msgid "  no or unknown cpufreq driver is active on this CPU\n"
-msgstr "  nenhum ou driver do cpufreq deconhecido está ativo nesse CPU\n"
+msgstr "  nenhum driver cpufreq ou desconhecido está ativo nesta CPU\n"
 
 #: utils/cpufreq-info.c:213
 #, c-format
@@ -461,7 +471,7 @@ msgstr ""
 #: utils/cpufreq-info.c:488
 #, c-format
 msgid "  -b, --boost          Checks for turbo or boost modes  *\n"
-msgstr ""
+msgstr "  -b, --boost          Verifica os modos turbo ou boost  *\n"
 
 #: utils/cpufreq-info.c:489
 #, c-format
@@ -486,7 +496,7 @@ msgstr ""
 #: utils/cpufreq-info.c:492 utils/cpuidle-info.c:152
 #, c-format
 msgid "  -h, --help           Prints out this screen\n"
-msgstr " -h, --help           Imprime essa tela\n"
+msgstr " -h, --help           Mostra essa tela\n"
 
 #: utils/cpufreq-info.c:495
 #, c-format
@@ -669,12 +679,12 @@ msgstr ""
 #: utils/cpufreq-set.c:347
 #, c-format
 msgid "Setting cpu: %d\n"
-msgstr ""
+msgstr "Configurando cpu:%d\n"
 
 #: utils/cpupower-set.c:22
 #, c-format
 msgid "Usage: cpupower set [ -b val ] [ -m val ] [ -s val ]\n"
-msgstr ""
+msgstr "Uso: cpupower set [ -b val ] [ -m val ] [ -s val ]\n"
 
 #: utils/cpupower-set.c:24
 #, c-format
@@ -682,12 +692,15 @@ msgid ""
 "  -b, --perf-bias [VAL]    Sets CPU's power vs performance policy on some\n"
 "                           Intel models [0-15], see manpage for details\n"
 msgstr ""
+"  -b, --perf-bias [VAL]    Define a política de potência vs desempenho da CPU em alguns\n"
+"                           Modelos Intel [0-15], veja manpage para obter detalhes\n"
 
 #: utils/cpupower-set.c:26
 #, c-format
 msgid ""
 "  -m, --sched-mc  [VAL]    Sets the kernel's multi core scheduler policy.\n"
 msgstr ""
+"  -m, --sched-mc  [VAL]    Define a política de agendador de vários núcleos do kernel.\n"
 
 #: utils/cpupower-set.c:27
 #, c-format
@@ -699,37 +712,37 @@ msgstr ""
 #: utils/cpupower-set.c:80
 #, c-format
 msgid "--perf-bias param out of range [0-%d]\n"
-msgstr ""
+msgstr "--perf-bias parâmetros fora do alcance [0-%d]\n"
 
 #: utils/cpupower-set.c:91
 #, c-format
 msgid "--sched-mc param out of range [0-%d]\n"
-msgstr ""
+msgstr "--sched-mc parâmetros fora do alcance [0-%d]\n"
 
 #: utils/cpupower-set.c:102
 #, c-format
 msgid "--sched-smt param out of range [0-%d]\n"
-msgstr ""
+msgstr "--sched-smt parâmetros fora do alcance [0-%d]\n"
 
 #: utils/cpupower-set.c:121
 #, c-format
 msgid "Error setting sched-mc %s\n"
-msgstr ""
+msgstr "Erro ao definir sched-mc %s\n"
 
 #: utils/cpupower-set.c:127
 #, c-format
 msgid "Error setting sched-smt %s\n"
-msgstr ""
+msgstr ""Erro ao definir sched-smt %s\n"
 
 #: utils/cpupower-set.c:146
 #, c-format
 msgid "Error setting perf-bias value on CPU %d\n"
-msgstr ""
+msgstr "Erro ao definir o valor perf-bias na CPU %d\n"
 
 #: utils/cpupower-info.c:21
 #, c-format
 msgid "Usage: cpupower info [ -b ] [ -m ] [ -s ]\n"
-msgstr ""
+msgstr "Uso: cpupower info [ -b ] [ -m ] [ -s ]\n"
 
 #: utils/cpupower-info.c:23
 #, c-format
@@ -737,12 +750,13 @@ msgid ""
 "  -b, --perf-bias    Gets CPU's power vs performance policy on some\n"
 "                           Intel models [0-15], see manpage for details\n"
 msgstr ""
+"  -b, --perf-bias    Obtém a política de potência vs desempenho da CPU em alguns\n"
+"                           Modelos Intel [0-15], veja a página de manual para detalhes\n"
 
 #: utils/cpupower-info.c:25
 #, fuzzy, c-format
 msgid "  -m, --sched-mc     Gets the kernel's multi core scheduler policy.\n"
-msgstr ""
-"--p, --policy         Obtem a política do cpufreq em uso no momento *\n"
+msgstr "  -m, --sched-mc     Obtém a política de agendador de vários núcleos do kernel.\n""
 
 #: utils/cpupower-info.c:26
 #, c-format
@@ -756,17 +770,19 @@ msgid ""
 "\n"
 "Passing no option will show all info, by default only on core 0\n"
 msgstr ""
+"\n"
+"Não passar nenhuma opção mostrará todas as informações, por padrão apenas no núcleo 0\n"
 
 #: utils/cpupower-info.c:102
 #, c-format
 msgid "System's multi core scheduler setting: "
-msgstr ""
+msgstr "Configuração do agendador de múltiplos núcleos do sistema:"
 
 #. if sysfs file is missing it's: errno == ENOENT
 #: utils/cpupower-info.c:105 utils/cpupower-info.c:114
 #, c-format
 msgid "not supported\n"
-msgstr ""
+msgstr "não suportado\n"
 
 #: utils/cpupower-info.c:111
 #, c-format
@@ -776,17 +792,17 @@ msgstr ""
 #: utils/cpupower-info.c:126
 #, c-format
 msgid "Intel's performance bias setting needs root privileges\n"
-msgstr ""
+msgstr "A configuração de desempenho bias da Intel precisa de privilégios de root\n"
 
 #: utils/cpupower-info.c:128
 #, c-format
 msgid "System does not support Intel's performance bias setting\n"
-msgstr ""
+msgstr "O sistema não suporta a configuração de desempenho bias da Intel\n"
 
 #: utils/cpupower-info.c:147
 #, c-format
 msgid "Could not read perf-bias value\n"
-msgstr ""
+msgstr "Não foi possível ler o valor perf-bias\n"
 
 #: utils/cpupower-info.c:150
 #, c-format
@@ -796,67 +812,67 @@ msgstr ""
 #: utils/cpuidle-info.c:28
 #, fuzzy, c-format
 msgid "Analyzing CPU %d:\n"
-msgstr "analisando o CPU %d:\n"
+msgstr "Analisando o CPU %d:\n"
 
 #: utils/cpuidle-info.c:32
 #, c-format
 msgid "CPU %u: No idle states\n"
-msgstr ""
+msgstr "CPU %u: Sem estados de inatividade\n"
 
 #: utils/cpuidle-info.c:36
 #, c-format
 msgid "CPU %u: Can't read idle state info\n"
-msgstr ""
+msgstr "CPU %u: Não é possível ler as informações do estado inativo\n"
 
 #: utils/cpuidle-info.c:41
 #, c-format
 msgid "Could not determine max idle state %u\n"
-msgstr ""
+msgstr "Não foi possível determinar o estado máximo de inatividade %u\n"
 
 #: utils/cpuidle-info.c:46
 #, c-format
 msgid "Number of idle states: %d\n"
-msgstr ""
+msgstr "Número de estados inativos: %d\n"
 
 #: utils/cpuidle-info.c:48
 #, fuzzy, c-format
 msgid "Available idle states:"
-msgstr "  níveis de frequência disponíveis: "
+msgstr "Estados ociosos disponíveis:"
 
 #: utils/cpuidle-info.c:71
 #, c-format
 msgid "Flags/Description: %s\n"
-msgstr ""
+msgstr "Bandeiras/Descrição: %s\n"
 
 #: utils/cpuidle-info.c:74
 #, c-format
 msgid "Latency: %lu\n"
-msgstr ""
+msgstr "Latência %lu\n"
 
 #: utils/cpuidle-info.c:76
 #, c-format
 msgid "Usage: %lu\n"
-msgstr ""
+msgstr "Uso: %lu\n"
 
 #: utils/cpuidle-info.c:78
 #, c-format
 msgid "Duration: %llu\n"
-msgstr ""
+msgstr "Duração: %llu\n"
 
 #: utils/cpuidle-info.c:90
 #, c-format
 msgid "Could not determine cpuidle driver\n"
-msgstr ""
+msgstr "Não foi possível determinar o cpuidle driver\n"
 
 #: utils/cpuidle-info.c:94
 #, fuzzy, c-format
 msgid "CPUidle driver: %s\n"
-msgstr "  driver: %s\n"
+msgstr "CPUidle driver: %s\n"
 
 #: utils/cpuidle-info.c:99
 #, c-format
 msgid "Could not determine cpuidle governor\n"
-msgstr ""
+msgstr "Não foi possível determinar o cpuidle governor\n"
 
 #: utils/cpuidle-info.c:103
 #, c-format
@@ -866,13 +882,13 @@ msgstr ""
 #: utils/cpuidle-info.c:122
 #, c-format
 msgid "CPU %u: Can't read C-state info\n"
-msgstr ""
+msgstr "CPU %u: Não foi possível ler C-state info\n"
 
 #. printf("Cstates: %d\n", cstates);
 #: utils/cpuidle-info.c:127
 #, c-format
 msgid "active state:            C0\n"
-msgstr ""
+msgstr "estado ativo:            C0\n"
 
 #: utils/cpuidle-info.c:128
 #, c-format
@@ -882,47 +898,47 @@ msgstr ""
 #: utils/cpuidle-info.c:129
 #, fuzzy, c-format
 msgid "maximum allowed latency: %lu usec\n"
-msgstr "  maior latência de transição: "
+msgstr "latência máxima permitida: %lu usec\n"
 
 #: utils/cpuidle-info.c:130
 #, c-format
 msgid "states:\t\n"
-msgstr ""
+msgstr "estados:\t\n"
 
 #: utils/cpuidle-info.c:132
 #, c-format
 msgid "    C%d:                  type[C%d] "
-msgstr ""
+msgstr "    C%d:                  tipo[C%d] "
 
 #: utils/cpuidle-info.c:134
 #, c-format
 msgid "promotion[--] demotion[--] "
-msgstr ""
+msgstr "promoção[--] rebaixamento[--] "
 
 #: utils/cpuidle-info.c:135
 #, c-format
 msgid "latency[%03lu] "
-msgstr ""
+msgstr "latência[%03lu] "
 
 #: utils/cpuidle-info.c:137
 #, c-format
 msgid "usage[%08lu] "
-msgstr ""
+msgstr "uso[%08lu] "
 
 #: utils/cpuidle-info.c:139
 #, c-format
 msgid "duration[%020Lu] \n"
-msgstr ""
+msgstr "duração[%020Lu] \n"
 
 #: utils/cpuidle-info.c:147
 #, fuzzy, c-format
 msgid "Usage: cpupower idleinfo [options]\n"
-msgstr "Uso: cpufreq-info [opções]\n"
+msgstr "Uso: cpupower idleinfo [opções]\n"
 
 #: utils/cpuidle-info.c:149
 #, fuzzy, c-format
 msgid "  -s, --silent         Only show general C-state information\n"
-msgstr "  -e, --debug          Mostra informação de debug\n"
+msgstr "  -s, --silent         Mostra apenas informações gerais do estado C\n"
 
 #: utils/cpuidle-info.c:150
 #, fuzzy, c-format
@@ -931,27 +947,25 @@ msgid ""
 "acpi/processor/*/power\n"
 "                       interface in older kernels\n"
 msgstr ""
-"  -o, --proc           Mostra informação do tipo provida pela interface /"
-"proc/cpufreq\n"
-"                       em kernels 2.4. e mais recentes 2.6\n"
+"  -o, --proc           Mostra informações como fornecidas pelo /proc/"
+"acpi/processor/*/power\n"
+"                       interface em kernels mais antigos\n"
 
 #: utils/cpuidle-info.c:209
 #, fuzzy, c-format
 msgid "You can't specify more than one output-specific argument\n"
-msgstr ""
-"Você não pode especificar mais do que um parâmetro --cpu e/ou\n"
-"mais do que um argumento de saída específico\n"
+msgstr "Você não pode especificar mais de um argumento específico de saída\n"
 
 #~ msgid ""
 #~ "  -c CPU, --cpu CPU    CPU number which information shall be determined "
 #~ "about\n"
 #~ msgstr ""
-#~ "  -c CPU, --cpu CPU    número do CPU sobre o qual as inforções devem ser "
+#~ "  -c CPU, --cpu CPU    Número da CPU sobre a qual as informações devem ser"
 #~ "determinadas\n"
 
 #~ msgid ""
 #~ "  -c CPU, --cpu CPU        number of CPU where cpufreq settings shall be "
 #~ "modified\n"
 #~ msgstr ""
-#~ "  -c CPU, --cpu CPU        número do CPU onde as configurações do cpufreq "
-#~ "vão ser modificadas\n"
+#~ "  -c CPU, --cpu CPU        número de CPU onde as configurações de cpufreq devem ser "
+#~ "modificadas\n"
